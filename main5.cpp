@@ -12,6 +12,7 @@ int main(){
 
     std::cout<<"Digite sua senha: "<<std::endl;
     std::cin>>senha;
+    
     if(senha == "123456789"){
         std::cout<<"O usuario "<<user<<" esta logado com sucesso!!"<<std::endl;
     }else{
